@@ -1,0 +1,53 @@
+{
+    "name": "Sustainable Facilities Tool API",
+    "description": "<p>Our core API allows developers to interact with the Sustainable Facilities Tool programmatically. It's designed for public use and to be easily integrated into other applications.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/sustainable-facilities-mobile_504b7.png",
+    "tags": [
+        "federal government   gsa",
+        "general data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/sustainable-facilities-tool-api\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Sustainable Facilities Tool API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/sustainable-facilities-mobile_504b7.png",
+            "humanURL": "https:\/\/sftool.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/sustainable-facilities-tool-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/sustainable-facilities-tool-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "https:\/\/sftool.gov\/developers"
+        },
+        {
+            "type": "Terms Of Service",
+            "url": "https:\/\/sftool.gov\/developer\/terms-of-use"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/sftool"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/sftool.gov\/"
+        }
+    ]
+}
