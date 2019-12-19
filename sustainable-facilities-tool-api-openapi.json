@@ -1,0 +1,832 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Sustainable Facilities Tool API",
+        "description": "Our core API allows developers to interact with the Sustainable Facilities Tool programmatically. It's designed for public use and to be easily integrated into other applications.",
+        "termsOfService": "https:\/\/sftool.gov\/developer\/terms-of-use"
+    },
+    "servers": [
+        "httpsapi.data.gov\/sftool\/v1\/"
+    ],
+    "paths": {
+        "\/building-systems": {
+            "get": {
+                "summary": "Returns all building systems.",
+                "description": "Returns all building systems.",
+                "operationId": "ReturnBuildingSystems",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}": {
+            "get": {
+                "summary": "Returns a building system by parameter.",
+                "description": "Returns a building system by parameter.",
+                "operationId": "ReturnBuildingSystem",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/resources": {
+            "get": {
+                "summary": "Returns Building System Resources",
+                "description": "Returns informational resources for the building system selected by parameter.",
+                "operationId": "ReturnBuildingSystemResources",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/case-studies": {
+            "get": {
+                "summary": "Building System Case Studies",
+                "description": "Returns all building systems case studies",
+                "operationId": "ReturnBuildingSystemCaseStudies",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/case-studies": {
+            "get": {
+                "summary": "Building System Case Study",
+                "description": "Returns a building system case study by parameter.",
+                "operationId": "ReturnBuildingSystemCaseStudies",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/mandates": {
+            "get": {
+                "summary": "Building System Mandates",
+                "description": "Returns all building systems mandates",
+                "operationId": "ReturnBuildingSystemMandates",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/mandates": {
+            "get": {
+                "summary": "Building System Mandate",
+                "description": "Returns a building system mandate by parameter.",
+                "operationId": "ReturnBuildingSystemMandate",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/rating-systems": {
+            "get": {
+                "summary": "Building System Rating Systems",
+                "description": "Returns all building system rating systems",
+                "operationId": "ReturnBuildingSystemRating",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/rating-systems": {
+            "get": {
+                "summary": "Building System Rating System",
+                "description": "Returns a building system rating system by parameter.",
+                "operationId": "ReturnBuildingSystemRating",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/system-bundles": {
+            "get": {
+                "summary": "Building System Bundles",
+                "description": "Returns all building system bundles.",
+                "operationId": "ReturnsBuildingSystemBundles",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/system-bundles": {
+            "get": {
+                "summary": "Building System Bundle",
+                "description": "Returns a building system bundle by parameter.",
+                "operationId": "ReturnsBuildingSystemBundle",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/integrative-teams": {
+            "get": {
+                "summary": "Building System Integrative Teams",
+                "description": "Returns all building system integrative teams.",
+                "operationId": "ReturnBuildingSystemIntegrativeTeams",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/building-systems\/{parameter}\/integrative-teams": {
+            "get": {
+                "summary": "Building System Integrative Team",
+                "description": "Returns a building system integrative team by parameter.",
+                "operationId": "ReturnBuildingSystemIntegrativeTeams",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Building Systems"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/contentpages": {
+            "get": {
+                "summary": "Content Pages",
+                "description": "Returns all content pages",
+                "operationId": "ReturnContentPages",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Content Pages"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/contentpages\/{parameter}": {
+            "get": {
+                "summary": "Content Page",
+                "description": "Returns a content page by parameter.",
+                "operationId": "ReturnContentPage",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Content Pages"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/procurementclauses": {
+            "get": {
+                "summary": "Federal Acquisition Regulation (FAR) Clause ",
+                "description": "Returns Federal Acquisition Regulation (FAR) clause numbers and environmental programs for all NAICS and PSC codes with federal sustainable procurement requirements in GPC.",
+                "operationId": "ReturnFederalAcquisitionRegulationClause",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/FAR Clauses"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/procurementclauses\/naics\/{parameter}": {
+            "get": {
+                "summary": "Federal Acquisition Regulation (FAR) Clause",
+                "description": "Returns any FAR clause number(s) and sample procurement language associated with the given NAICS parameter.",
+                "operationId": "ReturnFederalAcquisitionRegulationClause",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/FAR Clauses"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/procurementclauses\/psc\/{parameter}": {
+            "get": {
+                "summary": "Procurement Clause",
+                "description": "Returns any FAR clause number(s) and sample procurement language associated with the given PSC parameter.",
+                "operationId": "ReturnFederalAcquisitionRegulationClause",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/FAR Clauses"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/procurementclauses\/allcontractlanguage": {
+            "get": {
+                "summary": "Contract Language",
+                "description": "Returns all sample contract language for environmental programs",
+                "operationId": "ContractLanguage",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/FAR Clauses"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/materials": {
+            "get": {
+                "summary": "Return Materials",
+                "description": "Returns all materials.",
+                "operationId": "ReturnMaterials",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Materials"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/materials\/{parameter}": {
+            "get": {
+                "summary": "Return Material",
+                "description": "Returns a material by parameter.",
+                "operationId": "ReturnMaterial",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Materials"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/materials\/{parameter}\/alternatives": {
+            "get": {
+                "summary": "Alternative Materials",
+                "description": "Returns alternatives for the material selected by parameter.",
+                "operationId": "GetAlternativeMaterials",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Materials"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/materials\/{parameter}\/comparisons": {
+            "get": {
+                "summary": "Compairson Materials",
+                "description": "Returns comparisons for the material selected by parameter.",
+                "operationId": "ReturnCompairsonMaterials",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Materials"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/products": {
+            "get": {
+                "summary": "Products",
+                "description": "Returns all products.",
+                "operationId": "GetProducts",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Products"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/products\/{parameter}\/details": {
+            "get": {
+                "summary": "Product Details",
+                "description": "Returns details for the product selected by parameter.",
+                "operationId": "GetProductDetails",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Products"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/services": {
+            "get": {
+                "summary": "Services",
+                "description": "Returns all services",
+                "operationId": "GetServices",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Services"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/services\/{parameter}": {
+            "get": {
+                "summary": "Services",
+                "description": "Returns a service by parameter.",
+                "operationId": "GetService",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Services"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/services\/{parameter}\/related-products": {
+            "get": {
+                "summary": "Related Products",
+                "description": "Returns products related to a service by parameter.",
+                "operationId": "GetRelatedProducts",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Services"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/tags": {
+            "get": {
+                "summary": "Tags",
+                "description": "Returns all search tags.",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Tags"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/tags\/{parameter}": {
+            "get": {
+                "summary": "Tag",
+                "description": "Returns a tag by parameter.",
+                "operationId": "GetTag",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Tags"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/workspaces": {
+            "get": {
+                "summary": "Workspaces",
+                "description": "Returns all workspaces.",
+                "operationId": "GetWorkspaces",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Workspaces"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/workspaces\/{parameter}": {
+            "get": {
+                "summary": "Workspace",
+                "description": "Returns a workspace by parameter.",
+                "operationId": "GetWorkspace",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Workspaces"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/workspaces\/{parameter}\/material-groups": {
+            "get": {
+                "summary": "Workspaces",
+                "description": "Returns material groups for the workspace selected by parameter.",
+                "operationId": "GetWorkspaceMaterialGroups",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Workspaces"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/workspaces\/{parameter}\/materials": {
+            "get": {
+                "summary": "Workspace Materials",
+                "description": "Returns materials for the workspace selected by parameter.",
+                "operationId": "GetWorkspaceMaterials",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "Successful response.": {
+                        "description": "",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Workspaces"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Building Systems": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "Returns a building system by Id. If an invalid Id is specified, a 404 (Not Found) code is returned.",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Content Pages": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "description": "Returns content pages by full text search. If no pages are found, a 204 (No Content) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "FAR Clauses": {
+                "type": "object",
+                "properties": {
+                    "NAICS code": {
+                        "description": "Returns any FAR clause number(s) and sample procurement langauge by NAICS code. If the NAICS code specified does not have any required clauses, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "Returns a building system by Id. If an invalid Id is specified, a 404 (Not Found) code is returned.",
+                        "type": "integer"
+                    }
+                }
+            },
+            "Materials": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "the id of the material",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Products": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "the id of the material",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Services": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "the id of the material",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Tags": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "the id of the material",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Workspaces": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "the id of the material",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "string\tReturns a building system by name. If an invalid name is specified, a 404 (Not Found) code is returned.",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
