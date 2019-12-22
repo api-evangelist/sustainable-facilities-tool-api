@@ -1,5 +1,5 @@
 {
-    "id": "8f32584dd267ce6843cc2f9eba3bc597",
+    "id": "2d8ffff506dc46e56eae9908663dbbde",
     "name": "Sustainable Facilities Tool API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "99d1c4a23a02f964c16f654b77479918",
+            "id": "d054505cfff9bd45a71bfe6b40b0ab82",
             "name": "Returns all building systems.",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems",
             "description": "Returns all building systems.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "6d952466a5c31146aae63ce0f8d83722",
+            "id": "afbced0bb432ce8e33225740ff29eebd",
             "name": "Returns a building system by parameter.",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}",
             "description": "Returns a building system by parameter.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "88f458070a1c088a9a1833e1a5c55770",
+            "id": "708e9c2a410dbb494d9445dacb409b1d",
             "name": "Returns Building System Resources",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/resources",
             "description": "Returns informational resources for the building system selected by parameter.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "648da5ec165df73a9038fd80b6c953cf",
+            "id": "2e0adeb751b11809cf6a407a6eb22117",
             "name": "Building System Case Studies",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/case-studies",
             "description": "Returns all building systems case studies",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "26f6b5bd7bd5d52ebcfe83ff96275361",
+            "id": "f1ebef11ebb70dff8a18c0c4b0b366a2",
             "name": "Building System Case Study",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/case-studies",
             "description": "Returns a building system case study by parameter.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "4c6e71e0b1bae397c25b166a04d53d0a",
+            "id": "11624ea83e034c10eebe0da19be44030",
             "name": "Building System Mandates",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/mandates",
             "description": "Returns all building systems mandates",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "18958ec5c7b653c56b885e64c0d4a39d",
+            "id": "0446c832b22433ac5e28757edc1ed58d",
             "name": "Building System Mandate",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/mandates",
             "description": "Returns a building system mandate by parameter.",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "5e7d5daef15eae1032f99f9fa4740d93",
+            "id": "d8502fd40caf44dc485e95fa067d3782",
             "name": "Building System Rating Systems",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/rating-systems",
             "description": "Returns all building system rating systems",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "07e44645b520aacc5efdb5525fd579d9",
+            "id": "9d0fcf562ff97906dd108cb02e8fd853",
             "name": "Building System Rating System",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/rating-systems",
             "description": "Returns a building system rating system by parameter.",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "35d610017bea0be21410b2a1f0bcdbf3",
+            "id": "ec7391a6aa04188e667a5fe3bcfa2748",
             "name": "Building System Bundles",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/system-bundles",
             "description": "Returns all building system bundles.",
@@ -236,11 +236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "553de284aa99b1809da0f46302a85ea8",
+            "id": "018d6568ae622b443016378512c85ca2",
             "name": "Building System Bundle",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/system-bundles",
             "description": "Returns a building system bundle by parameter.",
@@ -259,11 +259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "308bfefcb103ac22a79cd5d13c133ef8",
+            "id": "ed48e1c83490ccdb169ec13ac3274e60",
             "name": "Building System Integrative Teams",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/integrative-teams",
             "description": "Returns all building system integrative teams.",
@@ -282,11 +282,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "d1ae682397bf9e91dc3818067395ba2e",
+            "id": "994f7e668c1db2389a29b1acb73e0fc1",
             "name": "Building System Integrative Team",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/building-systems\/{parameter}\/integrative-teams",
             "description": "Returns a building system integrative team by parameter.",
@@ -305,11 +305,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "18c92155ad75f4f3e1bcb4bd1645459a",
+            "id": "e230935fadec7977d74ff15b4cdc9f8d",
             "name": "Content Pages",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/contentpages",
             "description": "Returns all content pages",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "2f9ad3a967efd29909cb9caf879342de",
+            "id": "5660110623c1cc719b26f5bc875b7e70",
             "name": "Content Page",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/contentpages\/{parameter}",
             "description": "Returns a content page by parameter.",
@@ -351,11 +351,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "89ab5f45877d3aa73d661ddf5b757c91",
+            "id": "12857681465eff4d2705d89899d0c68e",
             "name": "Federal Acquisition Regulation (FAR) Clause ",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/procurementclauses",
             "description": "Returns Federal Acquisition Regulation (FAR) clause numbers and environmental programs for all NAICS and PSC codes with federal sustainable procurement requirements in GPC.",
@@ -374,11 +374,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "e18b6d8f6dcda51865e3bad6ddc92292",
+            "id": "7dc467b3739733145c73aa5fb2f8169f",
             "name": "Federal Acquisition Regulation (FAR) Clause",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/procurementclauses\/naics\/{parameter}",
             "description": "Returns any FAR clause number(s) and sample procurement language associated with the given NAICS parameter.",
@@ -397,11 +397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "a1227f5ce73267d14d223441b111a3d6",
+            "id": "e7c03538b498c0d08a2c5f036921dc07",
             "name": "Procurement Clause",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/procurementclauses\/psc\/{parameter}",
             "description": "Returns any FAR clause number(s) and sample procurement language associated with the given PSC parameter.",
@@ -420,11 +420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "bcc1d8020ebbf87b53d24ec20055f0e6",
+            "id": "2ac4455d2764229febab59ca2f2dd9fe",
             "name": "Contract Language",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/procurementclauses\/allcontractlanguage",
             "description": "Returns all sample contract language for environmental programs",
@@ -443,11 +443,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "963f9fcc32ae44fa10064c9aaa71eddf",
+            "id": "f33779a24a6f7601be5573eba0ab6fc7",
             "name": "Return Materials",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/materials",
             "description": "Returns all materials.",
@@ -466,11 +466,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "e2b042bc9fcfa69d6c7fcf41deef1fc0",
+            "id": "b23509e0e43fd4f49e76c23ee8e1ad75",
             "name": "Return Material",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/materials\/{parameter}",
             "description": "Returns a material by parameter.",
@@ -489,11 +489,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "f3d37c61a9f8ffb688a0cc5050ff1980",
+            "id": "753e5eca670e7d90553b9e8a1fdd83ae",
             "name": "Alternative Materials",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/materials\/{parameter}\/alternatives",
             "description": "Returns alternatives for the material selected by parameter.",
@@ -512,11 +512,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "8160368f0baef8dcf247edeb972cf84d",
+            "id": "88ee03d1ba3fe55de50e3055718adaf8",
             "name": "Compairson Materials",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/materials\/{parameter}\/comparisons",
             "description": "Returns comparisons for the material selected by parameter.",
@@ -535,11 +535,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "49bfc1a6397444a629d8902a49314018",
+            "id": "c55531b6b3022db49cbe0fcd5d5562aa",
             "name": "Products",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/products",
             "description": "Returns all products.",
@@ -558,11 +558,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "96066bf1e84df9ac952abf1e486d450f",
+            "id": "bce80cab203729d74ef0b784266a8134",
             "name": "Product Details",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/products\/{parameter}\/details",
             "description": "Returns details for the product selected by parameter.",
@@ -581,11 +581,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "fb70cb74cd63bc4c577cd54084b968c9",
+            "id": "0bdd68991a264aa6c2e602b8ebec3395",
             "name": "Services",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/services",
             "description": "Returns all services",
@@ -604,11 +604,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "48a85a14895895dd40b16a2a36b99d04",
+            "id": "fe668e186deb735a2078b0d33c1f9fbe",
             "name": "Services",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/services\/{parameter}",
             "description": "Returns a service by parameter.",
@@ -627,11 +627,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "7b1a0358728a1812935a1218e6cf3c4c",
+            "id": "e3bf052fbb1f6d0fe3ceb3fb97de88f0",
             "name": "Related Products",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/services\/{parameter}\/related-products",
             "description": "Returns products related to a service by parameter.",
@@ -650,11 +650,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "b71224ef44877fbfb8b58ff5fce047eb",
+            "id": "9f7d37979dbac095fdc2c6cc12969819",
             "name": "Tags",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/tags",
             "description": "Returns all search tags.",
@@ -673,11 +673,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "412f4b5e7e4e00b2361d7bf4dcf9b27c",
+            "id": "f47c4ab51f19862afa771d8a321894ae",
             "name": "Tag",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/tags\/{parameter}",
             "description": "Returns a tag by parameter.",
@@ -696,11 +696,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "a8e8e07bec9924b95f660ea7ae248c49",
+            "id": "d47c1b4c4e514cc2128303adee0481ee",
             "name": "Workspaces",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/workspaces",
             "description": "Returns all workspaces.",
@@ -719,11 +719,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "1143598c9e8199c1f3d2c8fb14bc457a",
+            "id": "227f1c0a1fa97a8a5f5c2300540aac16",
             "name": "Workspace",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/workspaces\/{parameter}",
             "description": "Returns a workspace by parameter.",
@@ -742,11 +742,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "f7d5052ad19ebc55e83d9b12dc63d1df",
+            "id": "8d89152dc9bd06623921c9f86ad8d1fb",
             "name": "Workspaces",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/workspaces\/{parameter}\/material-groups",
             "description": "Returns material groups for the workspace selected by parameter.",
@@ -765,11 +765,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         },
         {
-            "id": "4f7afabe26f5118b3984865ea1166c3d",
+            "id": "e4c5eb9d1da4f501b3531351a8aff488",
             "name": "Workspace Materials",
             "url": "httpsapi.data.gov\/sftool\/v1\/\/workspaces\/{parameter}\/materials",
             "description": "Returns materials for the workspace selected by parameter.",
@@ -788,7 +788,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8f32584dd267ce6843cc2f9eba3bc597",
+            "collectionId": "2d8ffff506dc46e56eae9908663dbbde",
             "rawModeData": ""
         }
     ]
