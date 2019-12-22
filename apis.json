@@ -7,8 +7,8 @@
         "general data",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/sustainable-facilities-tool-api\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,17 +22,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/sustainable-facilities-tool-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/sustainable-facilities-tool-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/sustainable-facilities-tool-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/sustainable-facilities-tool-api\/master\/sustainable-facilities-tool-api-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "https:\/\/sftool.gov\/developers"
